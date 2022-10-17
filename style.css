@@ -61,6 +61,20 @@ body
     margin-top: 30px;
 }
 
+@media screen (max-width: 360px;)
+{
+  .imgbox
+  {
+    width: 50%;
+    height: auto;
+  }   
+
+ .ytvideo p
+ {
+    font-size: 14px;
+ }
+}
+
 .imgbox img
 {
     box-shadow: 0 0 60px rgba(245, 30, 10, 0.9);
@@ -92,15 +106,6 @@ body
     overflow: hidden;
  }
 
- @media only screen and (max-width: 320px)
- {
-    .ytvideo
-    {
-        width: 80%;
-        height: auto;
-        margin: auto;
-    }
- }
 
  .ytvideo p
  {
