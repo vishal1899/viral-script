@@ -117,7 +117,7 @@ body
     padding: 10px;
     border-radius: 20px;
     margin-bottom: 30px;
-    animation: ytvideotext 0.5s linear infinite;
+    animation: ytvideotext 2s linear infinite;
  }
 
  @keyframes ytvideotext
