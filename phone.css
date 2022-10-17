@@ -1,8 +1,19 @@
 
+.titletext h2
+{
+    font-size: 18px;
+}
+
+
 .imgbox
 {
     width: 80%;
     height: auto;
+}
+
+.imgbox h2
+{
+    font-size: 25px;
 }
 
 .ytvideo
