@@ -23,7 +23,8 @@ body
 {
     width: 100%;
     height: 100%;
-    background: url(https://media.tenor.com/OWavF62qCpEAAAAC/night-sky-tranquilo.gif);
+    /* background: url(https://media.tenor.com/OWavF62qCpEAAAAC/night-sky-tranquilo.gif); */
+    background: url(https://media.tenor.com/2hQ42XsedIcAAAAC/falling-stars.gif);
     background-size: cover;
 }
 
@@ -128,24 +129,38 @@ body
 
 /* yt video end */
 
-
-/* pdf box */
-
-.sndesmsg
+/* share btn */
+.sharebtn
 {
-    width: 80%;
-    font-size: 15px;
-    text-align: center;
+    width: 100%;
+    visibility: visible;
+    margin-bottom: 40px;
+    animation: sharebtn 1s linear infinite;
 }
 
-.pdfbox
+@keyframes sharebtn
 {
-    width: 80%;
-    height: 400px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    overflow: hidden;
-    overflow-y: scroll;
+    0%, 100% { transform: translateY(-5px); }
+    50% { transform: translateY(5px); background: teal;}
 }
 
-/* pdf box end */
+.form-box
+{
+    position: fixed;
+    bottom: 10px;
+    left: 10%;
+    width: 80%;
+    margin: auto;
+}
+
+.ftchname
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    position: fixed;
+    top: 20px;
+    left: 10%;
+    color: #fff;
+    background: #333;
+}
