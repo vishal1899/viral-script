@@ -126,7 +126,19 @@ body
     50% { transform: translateX(4px); background: teal; }
  }
 
-
-
-
 /* yt video end */
+
+
+/* pdf box */
+
+.pdfbox
+{
+    width: 80%;
+    height: 380px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+/* pdf box end */
