@@ -131,10 +131,17 @@ body
 
 /* pdf box */
 
+.sndesmsg
+{
+    width: 80%;
+    font-size: 15px;
+    text-align: center;
+}
+
 .pdfbox
 {
     width: 80%;
-    height: 380px;
+    height: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
     overflow: hidden;
