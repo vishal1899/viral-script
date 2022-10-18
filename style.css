@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 /* variables */
@@ -23,7 +24,6 @@ body
 {
     width: 100%;
     height: 100%;
-    /* background: url(https://media.tenor.com/OWavF62qCpEAAAAC/night-sky-tranquilo.gif); */
     background: url(https://media.tenor.com/2hQ42XsedIcAAAAC/falling-stars.gif);
     background-size: cover;
 }
@@ -54,6 +54,26 @@ body
 {
     width: var(--main-width);
     margin-top: 20px;
+}
+
+.visitor
+{
+    width: var(--main-width);
+    height: 100px;
+    margin-top: 30px;
+    animation: visitor 3s linear infinite;
+}
+
+@keyframes visitor 
+{
+    0%, 100% { transform: rotate3d(0, 1, 0.2, -40deg); }
+    50% { transform: rotate3d(0.5, 1, 0.5, 40deg); }
+}
+
+.visitor h2
+{
+    color: #fff;
+    text-transform: uppercase;
 }
 
 .titletext h2
@@ -129,13 +149,39 @@ body
 
 /* yt video end */
 
+/* gif box */
+
+.mgifbox
+{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mgifbox img
+{
+    margin-bottom: 10px;
+}
+
+/* gif box */
+
+.gifbox
+{
+    width: var(--main-width);
+    height: 300px;
+    margin-bottom: 30px;
+    /* background: tomato; */
+}
+
 /* share btn */
 .sharebtn
 {
     width: 100%;
     visibility: hidden;
-    margin-bottom: 40px;
-    animation: sharebtn 1s linear infinite;
+    margin-bottom: 50px;
+    animation: sharebtn 3s linear infinite;
 }
 
 @keyframes sharebtn
@@ -151,6 +197,7 @@ body
     left: 10%;
     width: 80%;
     margin: auto;
+    margin-bottom: -60px;
 }
 
 .ftchname
