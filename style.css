@@ -133,7 +133,7 @@ body
 .sharebtn
 {
     width: 100%;
-    visibility: visible;
+    visibility: hidden;
     margin-bottom: 40px;
     animation: sharebtn 1s linear infinite;
 }
