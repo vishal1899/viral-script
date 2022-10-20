@@ -90,20 +90,20 @@ body
     50% { transform: translateY(10px);}
 }
 
-.imgbox
+.imgbox1
 {
     width: var(--main-width);
     height: auto;
     margin-top: 30px;
 }
 
-.imgbox img
+.imgbox1 #img
 {
     box-shadow: 0 0 60px rgba(245, 30, 10, 0.9);
     border-radius: 20px;
 }
 
-.imgbox h2
+.imgbox1 h2
 {
     text-align: center;
     margin-top: 40px;
@@ -158,6 +158,7 @@ body
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    box-shadow: 0;
 }
 
 .mgifbox img
