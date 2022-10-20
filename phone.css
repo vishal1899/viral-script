@@ -1,29 +1,38 @@
-
-.titletext h2
+@media screen and (max-width: 600px)
 {
-    font-size: 18px;
-    width: 80%;
+    .titletext h2
+    {
+        font-size: 18px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .imgbox
+    {
+        width: 80%;
+        height: auto;
+    }
+    
+    .imgbox h2
+    {
+        font-size: 25px;
+    }
+    
+    .ytvideo
+    {
+        width: 80%;
+        height: auto;
+    }
+    
+    .ytvideo p
+    {
+        font-size: 16px;
+    }
+
+    .mgifbox>img
+    {
+        width: 80%;
+        border: 2px solid #fff;
+    }
 }
 
-
-.imgbox
-{
-    width: 80%;
-    height: auto;
-}
-
-.imgbox h2
-{
-    font-size: 25px;
-}
-
-.ytvideo
-{
-    width: 80%;
-    height: auto;
-}
-
-.ytvideo p
-{
-    font-size: 16px;
-}

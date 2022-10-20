@@ -49,11 +49,20 @@ body
     right: 0;
 }
 
+/* main messege */
+
+.mainmsg
+{
+    width: 80%;
+    height: auto;
+    margin-top: 30px;
+}
+
 
 .adbox 
 {
     width: var(--main-width);
-    margin-top: 20px;
+    margin: 20px auto;
 }
 
 .visitor
@@ -76,11 +85,17 @@ body
     text-transform: uppercase;
 }
 
+.titletext
+{
+    width: 80%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .titletext h2
 {
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 10px;
     animation: titletxt 1s linear infinite;
 }
 
@@ -90,24 +105,23 @@ body
     50% { transform: translateY(10px);}
 }
 
-.imgbox1
+.imgbox
 {
     width: var(--main-width);
     height: auto;
     margin-top: 30px;
 }
 
-.imgbox1 #img
+.imgbox #img
 {
     box-shadow: 0 0 60px rgba(245, 30, 10, 0.9);
     border-radius: 20px;
 }
 
-.imgbox1 h2
+.imgbox h2
 {
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 10px;
+    padding: 20px 0 20px 0;
     animation: anitex 2s linear infinite;
 }
 
@@ -153,7 +167,7 @@ body
 
 .mgifbox
 {
-    width: 80%;
+    max-width: 600px;
     height: auto;
     margin: auto;
     margin-top: 20px;
